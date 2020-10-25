@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WISTIX</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/4233620b0f.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </head>
+  <body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="brd" href="#">
+          <img src="img/logo.png" width="80">
+        </a>
+        <a onclick="toggleClass()" role="button" class="navbar-burger burger is-pulled-right" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="burger" class="navbar-menu">
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <a class="navbar-item active">HOME</a>
+            <a class="navbar-item" href="#about">ABOUT</a>
+            <a class="navbar-item" href="#myservices">SERVICES</a>
+            <a class="navbar-item" href="#myworks">PORTFOLIO</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="columns is-center header">
+        <div class="column is-narrow" style="padding: 0;">
+          <ul class="socialmenu" style="padding: 1em;">
+            <li><a><i class="fab fa-twitter"></i></a></li>
+            <li><a><i class="fab fa-linkedin"></i></a></li>
+            <li><a><i class="fab fa-facebook"></i></a></li>
+            <li><a><i class="fab fa-github"></i></a></li>
+            <li><a><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+        <div class="column is-6" style="padding: 0;">
+          <div style="padding-left: 5em;">
+            <h2 style="font-size: 3em;color: #CD6133;">Hello</h2>
+            <h2 style="font-size: 3em;">I'M SIDAHMED FRIOUI</h2>
+            <h5 style="font-size: 1em;color: #CED6E0;">A FULL STACK JAVASCRIPT DEVELOPER AND WEB DESIGNER</h5>
+            <a class="button prim" style="margin-top: 2em;" href="#contact"><i class="fas fa-envelope"></i>&nbsp;CONTACT ME</a>
+          </div>
+        </div>
+        <div class="column" style="padding: 0;">
+          <img src="img/header.png" alt="" style="padding: 0;">
+        </div>
+      </div>
+    <div class="columns is-center about" id="about">
+      <div class="column is-5" style="text-align: center;">
+        <img src="img/about.jpg" style="border-radius: 45px !important;" alt="">
+      </div>
+      <div class="column is-6" style="text-align: center;">
+        <h3 style="font-size: 1.9em;color: white;margin: 1em;">ABOUT ME</h3>
+        <h6 style="font-size: 1.2em;color: white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at tortor dui. Integer purus justo, volutpat sit amet nisl vitae, tempus ullamcorper magna. Cras eleifend sem non pretium rutrum. Donec convallis hendrerit velit, id rhoncus eros consectetur non. Sed at mi non turpis auctor blandit. In semper, sapien eu pellentesque ultrices, quam mauris fermentum nulla, vel ornare justo erat nec orci. Cras eleifend, nisi eu egestas hendrerit.</h6>
+      </div>
+    </div>
+    <div class="columns is-center myservices" id="myservices">
+      <div class="column is-5" style="text-align: left;margin-top: auto;margin-bottom: auto;">
+        <h3 style="font-size: 1.9em;color: white;margin: 1em;">MY SERVICES</h3>
+        <h6 style="font-size: 1.2em;color: white;margin: 1.7em;">Here it's my services that can i do, my skills and my experience.</h6>
+      </div>
+      <div class="column" style="text-align: center;margin-top: auto;margin-bottom: auto;">
+        <div class="columns skills">
+          <div class="column" style="padding: 0;">
+            <div class="skill">
+              <h4>UI/UX DESIGN</h4>
+              <p>2 Years Experience</p>
+              <h5>Adobe XD, Adobe Photoshop, Adobe Illustrator</h5>
+            </div>
+            <div class="skill">
+              <h4>UI/UX DESIGN</h4>
+              <p>2 Years Experience</p>
+              <h5>Adobe XD, Adobe Photoshop, Adobe Illustrator</h5>
+            </div>
+          </div>
+          <div class="column" style="padding: 0;">
+            <div class="skill">
+              <h4>UI/UX DESIGN</h4>
+              <p>2 Years Experience</p>
+              <h5>Adobe XD, Adobe Photoshop, Adobe Illustrator</h5>
+            </div>
+            <div class="skill">
+              <h4>UI/UX DESIGN</h4>
+              <p>2 Years Experience</p>
+              <h5>Adobe XD, Adobe Photoshop, Adobe Illustrator</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="columns is-center myworks" id="myworks">
+      <div class="column">
+        <h3 style="font-size: 1.9em;color: white;margin: 1em;">MY WORKS</h3>
+        <h5 style="font-size: 1.2em;color: white;margin: 2em 1.7em;">These are all my projects that I have worked on so far</h5>
+        <div class="tabs is-centered">
+          <ul>
+            <li class="is-active"><a>ALL</a></li>
+            <li><a>WEB DEVELOPMENT</a></li>
+            <li><a>UI/UX</a></li>
+            <li><a>MOBILE APPS</a></li>
+          </ul>
+        </div>
+        <div class="columns is-multiline" style="margin-top: 3em;">
+          <div class="column is-one-third">
+            <img src="img/col.jpg" alt="">
+          </div>
+          <div class="column is-one-third">
+            <img src="img/col.jpg" alt="">
+          </div>
+          <div class="column is-one-third">
+            <img src="img/col.jpg" alt="">
+          </div>
+          <div class="column is-one-third">
+            <img src="img/col.jpg" alt="">
+          </div>
+          <div class="column is-one-third">
+            <img src="img/col.jpg" alt="">
+          </div>
+          <div class="column is-one-third">
+            <img src="img/col.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="columns is-center contact" id="contact">
+      <div class="column" style="text-align: center;">
+        <h2 style="font-size: 2em;margin: 2em;">CONTACT</h2>
+        <div class="field is-horizontal">
+          <div class="field-body">
+            <div class="field">
+              <p class="control is-expanded">
+                <input class="input" type="text" placeholder="FULL NAME *">
+              </p>
+            </div>
+            <div class="field">
+              <p class="control is-expanded">
+                <input class="input" type="email" placeholder="EMAIL *">
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="field is-horizontal" style="margin: .5em">
+          <div class="field-body">
+            <div class="field">
+              <div class="control">
+                <input class="input" type="text" placeholder="SUBJECT *">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="field is-horizontal" style="margin: .5em">
+          <div class="field-body">
+            <div class="field">
+              <div class="control">
+                <textarea class="textarea" placeholder="MESSAGE *"></textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="field is-horizontal">
+          <div class="field-body">
+            <div class="field">
+              <div class="control">
+                <button class="button prim" style="margin: 1em;padding: 1.5em 4em !important;">
+                  <i class="fas fa-paper-plane"></i>&nbsp;Send
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2 style="font-size: 2em;margin: 2em;">FIND ME ON</h2>
+        <div class="columns">
+          <div class="column links">
+            <a href="#">INSTAGRAM</a>
+            <a href="#">LINKEDIN</a>
+            <a href="#">GITHUB</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="columns is-center footer" style="padding: 0;">
+      <div class="column" style="text-align: center;">
+        <h5>© Copyright WISTIX 2020. All rights reserved</h5>
+      </div>
+    </div>
+  </body>
+</html>
